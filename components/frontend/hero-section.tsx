@@ -1,7 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import SmallTitle from "./small-title";
 
 export default function HeroSection() {
