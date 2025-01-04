@@ -9,7 +9,7 @@ export default function HeroSection() {
         <SmallTitle title="Bienvenido a SchoolPro" />
 
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl max-w-3xl mx-auto">
-          Su solución completa de gestión escolar
+          Su Solución Completa de Gestión Escolar
         </h1>
         <p className="mx-auto max-w-[700px] text-muted-foreground text-lg sm:text-xl">
           Potencie su institución educativa con una plataforma todo en uno que
