@@ -88,7 +88,7 @@ export default function SiteFooter() {
             </div>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Newsletter</h3>
+            <h3 className="text-lg font-bold">Boletín informativo</h3>
             <form className="space-y-2">
               <Input
                 className="bg-white/10 border-white/20 placeholder:text-white/50"
