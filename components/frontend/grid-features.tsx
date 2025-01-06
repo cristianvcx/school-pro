@@ -7,7 +7,6 @@ import {
   ClipboardList,
   DollarSign,
   GraduationCap,
-  MessageSquare,
   Users,
 } from "lucide-react";
 const features = [
