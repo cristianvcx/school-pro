@@ -216,7 +216,9 @@ export default function SiteHeader() {
         </div>
 
         <div className="hidden md:flex items-center space-x-4">
-          <Button variant="ghost">Acceder</Button>
+          <Button variant="ghost">
+            <Link href={"/login"}>Acceder</Link>
+          </Button>
           <Button>Crear Cuenta</Button>
         </div>
 

@@ -35,28 +35,28 @@ const features = [
     description:
       "Recaudación de tarifas simplificada, facturación automatizada e informes financieros completos con procesamiento de pagos seguro.",
     icon: DollarSign,
-    image: "/images/placeholder.png",
+    image: "/images/placeholder3.png",
   },
   {
     title: "Gestion de Personal y Recursos Humanos",
     description:
       "Administración completa del personal con seguimiento de asistencia, gestión del desempeño y procesamiento automatizado de nóminas.",
     icon: ClipboardList,
-    image: "/images/placeholder.png",
+    image: "/images/placeholder4.png",
   },
   {
     title: "Control de Transporte y Seguridad",
     description:
       "Seguimiento en tiempo real de flotas, optimización de rutas y notificaciones automáticas para los padres, garantizando un transporte estudiantil seguro.",
     icon: Bus,
-    image: "/images/placeholder.png",
+    image: "/images/placeholder5.png",
   },
   {
     title: "Gestion de Recurso e Instalaciones",
     description:
       "Sistema de biblioteca digital, seguimiento de inventario y herramientas de programación inteligente para una utilización óptima de recursos.",
     icon: BookOpen,
-    image: "/images/placeholder.png",
+    image: "/images/placeholder6.png",
   },
 ];
 
@@ -86,7 +86,6 @@ export default function GridFeatures() {
               />
             </CardContent>
           </Card>
-
           <Card>
             <CardHeader>
               <CardTitle>{features[1].title}</CardTitle>
@@ -98,6 +97,92 @@ export default function GridFeatures() {
                 width={600}
                 height={400}
                 alt={features[1].title}
+                className="rounded w-full"
+              />
+            </CardContent>
+          </Card>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 mt-12">
+          <Card className="relative overflow-hidden">
+            <CardHeader>
+              <CardTitle>{features[2].title}</CardTitle>
+              <p className="text-muted-foreground">{features[2].description}</p>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <Image
+                src={features[2].image}
+                width={600}
+                height={400}
+                alt={features[2].title}
+                className="rounded w-full"
+              />
+            </CardContent>
+          </Card>
+          <div className="space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle>{features[3].title}</CardTitle>
+                <p className="text-muted-foreground">
+                  {features[3].description}
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <Image
+                  src={features[3].image}
+                  width={600}
+                  height={400}
+                  alt={features[3].title}
+                  className="rounded w-full"
+                />
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>{features[4].title}</CardTitle>
+                <p className="text-muted-foreground">
+                  {features[4].description}
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <Image
+                  src={features[4].image}
+                  width={600}
+                  height={400}
+                  alt={features[4].title}
+                  className="rounded w-full"
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10 mt-12">
+          <Card>
+            <CardHeader>
+              <CardTitle>{features[5].title}</CardTitle>
+              <p className="text-muted-foreground">{features[5].description}</p>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <Image
+                src={features[5].image}
+                width={600}
+                height={400}
+                alt={features[5].title}
+                className="rounded w-full"
+              />
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>{features[6].title}</CardTitle>
+              <p className="text-muted-foreground">{features[6].description}</p>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <Image
+                src={features[6].image}
+                width={600}
+                height={400}
+                alt={features[6].title}
                 className="rounded w-full"
               />
             </CardContent>
