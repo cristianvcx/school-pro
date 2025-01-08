@@ -1,15 +1,7 @@
 import {
   BarChart2,
-  Bell,
-  BookOpen,
-  Bus,
-  CalendarDays,
-  ClipboardList,
   DollarSign,
-  FileText,
   GraduationCap,
-  MessageSquare,
-  Shield,
   Users,
 } from "lucide-react";
 import React from "react";
